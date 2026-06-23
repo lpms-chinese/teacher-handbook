@@ -48,6 +48,15 @@ h1 {
   line-height: 1.25;
   white-space: nowrap;
 }
+.home-title-main {
+  font-size: clamp(1.9rem, 6.2vw, 3rem);
+  line-height: 1.16;
+}
+.home-title-sub {
+  margin-top: 2px;
+  font-size: clamp(1.2rem, 5.3vw, 2.75rem);
+  line-height: 1.18;
+}
 .section-heading {
   margin: 10px 0 0;
   color: var(--accent-dark);
@@ -57,13 +66,6 @@ h1 {
 }
 h2 { margin: 0 0 12px; font-size: 1.35rem; letter-spacing: 0; }
 h3 { margin: 0 0 8px; font-size: 1.05rem; letter-spacing: 0; }
-.handbook-motto p {
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    color: #c8a86b;
-    font-family: "Noto Serif TC", serif;
-}
 nav { display: flex; gap: 10px; flex-wrap: wrap; }
 .header-actions {
   display: flex;
@@ -197,6 +199,14 @@ main { width: min(1120px, calc(100% - 32px)); margin: 28px auto 52px; }
 }
 .chapter-title { margin-bottom: 18px; }
 .handbook-guide p { margin: 0 0 10px; }
+.handbook-motto {
+  margin-top: 18px;
+  padding-left: 16px;
+  border-left: 4px solid var(--accent-dark);
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+.handbook-motto p { margin: 0 0 4px; }
 .back-link { display: inline-block; margin-bottom: 10px; }
 .content-block { margin-bottom: 16px; }
 .content-block ul { margin: 0; padding-left: 1.3rem; }
@@ -310,6 +320,12 @@ th {
   .update-meta {
     text-align: left;
     white-space: normal;
+  }
+  .home-title-main {
+    font-size: clamp(1.8rem, 7.4vw, 2.35rem);
+  }
+  .home-title-sub {
+    font-size: clamp(1.2rem, 5.55vw, 1.85rem);
   }
   .header-year-index {
     align-items: flex-start;
