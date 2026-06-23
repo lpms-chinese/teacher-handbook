@@ -22,7 +22,7 @@
       <form class="auth-box" autocomplete="off">
         <h2>閱覽《同儕共學錄》</h2>
         <p>請輸入密碼後瀏覽本校中文科觀課及評課紀要。</p>
-        <p>本手冊只供校內中文科專業發展使用，請勿外傳。</p>
+        <p>本手冊只供校內中文科專業發展使用，請勿外傳。所有資料已經過脫敏處理。</p>
         <label for="handbook-password">密碼</label>
         <input id="handbook-password" type="password" required autofocus>
         <button type="submit">進入</button>
