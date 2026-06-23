@@ -48,11 +48,13 @@ h1 {
   line-height: 1.25;
   white-space: nowrap;
 }
-.home-title-main {
+.home-title-main,
+.handbook-title-main {
   font-size: clamp(1.9rem, 6.2vw, 3rem);
   line-height: 1.16;
 }
-.home-title-sub {
+.home-title-sub,
+.handbook-title-sub {
   margin-top: 2px;
   font-size: clamp(1.2rem, 5.3vw, 2.75rem);
   line-height: 1.18;
@@ -321,11 +323,13 @@ th {
     text-align: left;
     white-space: normal;
   }
-  .home-title-main {
-    font-size: clamp(1.8rem, 7.4vw, 2.35rem);
+  .home-title-main,
+  .handbook-title-main {
+    font-size: clamp(2.05rem, 8.4vw, 2.65rem);
   }
-  .home-title-sub {
-    font-size: clamp(1.2rem, 5.55vw, 1.85rem);
+  .home-title-sub,
+  .handbook-title-sub {
+    font-size: clamp(1.32rem, 5.9vw, 1.95rem);
   }
   .header-year-index {
     align-items: flex-start;
