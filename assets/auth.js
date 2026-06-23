@@ -20,11 +20,12 @@
     lock.className = 'auth-lock';
     lock.innerHTML = `
       <form class="auth-box" autocomplete="off">
-        <h2>進入教師手冊</h2>
-        <p>請輸入密碼後瀏覽校本中文科教師手冊。</p>
+        <h2>閱覽《同儕共學錄》</h2>
+        <p>請輸入密碼後瀏覽本校中文科觀課及評課紀要。</p>
+        <p>本手冊只供校內中文科專業發展使用，請勿外傳。</p>
         <label for="handbook-password">密碼</label>
         <input id="handbook-password" type="password" required autofocus>
-        <button type="submit">進入手冊</button>
+        <button type="submit">進入</button>
         <p class="auth-error" aria-live="polite"></p>
       </form>
     `;
