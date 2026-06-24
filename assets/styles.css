@@ -285,6 +285,16 @@ th {
 .auth-box h2 {
   margin-bottom: 8px;
 }
+.auth-notice {
+  margin: 16px 0 0;
+  border: 2px solid #b91c1c;
+  border-radius: 6px;
+  padding: 10px 12px;
+  background: #fff1f2;
+  color: #991b1b;
+  font-weight: 800;
+  text-align: center;
+}
 .auth-box label {
   display: block;
   font-weight: 700;

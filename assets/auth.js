@@ -1,6 +1,6 @@
 (function () {
   const AUTH_KEY = 'teacherHandbookAccess';
-  const PASSWORD_HASH = '8136df21b9a97c7b83a6ea49b18433c26d2340e958dda117b6fc07bce146103c';
+  const PASSWORD_HASH = '423da6df9c5df44206ff6b285d3253e2fbae47ebf6a00eaad8de9300e2963d67';
 
   async function sha256(text) {
     const data = new TextEncoder().encode(text);
@@ -22,7 +22,8 @@
       <form class="auth-box" autocomplete="off">
         <h2>閱覽《同儕共學錄》</h2>
         <p>請輸入密碼後瀏覽本校中文科觀課及評課紀要。</p>
-        <p>本手冊只供校內中文科專業發展使用，請勿外傳。所有資料已經過脫敏處理。</p>
+        <p>本手冊只供校內中文科專業發展使用，請勿外傳。</p>
+        <p class="auth-notice">所有資料已經過脫敏處理。</p>
         <label for="handbook-password">密碼</label>
         <input id="handbook-password" type="password" required autofocus>
         <button type="submit">進入</button>
